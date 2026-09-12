@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import CV from '../../assets/Arnab Paul cV(main)'
+
 
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
          <h5 className="text-light">Frontend Developer</h5>
 
          <div className="cta">
-          <a href={CV} download className='btn'>Download CV</a>
+          <a href="" download className='btn'>Download CV</a>
           <a href="#contact" className='btn btn-primary'>Lets Connect</a>
          </div>
 

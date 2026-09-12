@@ -3,6 +3,7 @@ import './index.css'
 
 import Nav from './components/nav/Navbar'
 import About from './components/about/About'
+import Exp from './components/experience/Exp'
 import Skills from './components/skills/Skill'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
@@ -17,6 +18,7 @@ const App = ()=>{
         <Header/>
        <Nav/>
        <About/>
+       <Exp/>
        <Skills/>
        
        <Portfolio/>

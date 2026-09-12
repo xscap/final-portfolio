@@ -28,27 +28,13 @@ function Portfolio() {
         </article>
 
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-img">
-            <img src={IMG2} alt="" />
-          </div>
-            <h3>
-              HealthCare Analytics
-            </h3>
-            <div className="portfolio_item-cta">
-            <a href="https://www.canva.com/design/DAF7TOXjNB4/KEwZNC_5LpzqIaIYFUQAkA/view?utm_content=DAF7TOXjNB4&utm_campaign=designshare&utm_medium=link&utm_source=editor" className='btn' target = '_blank'>Appreciation</a>
-            <a href="https://github.com/xscap/MTE_proj" className='btn btn-primary' target='_blank'>Source Code</a>
-          </div>
-          
-        </article>
-
-
-        <article className="portfolio__item">
+        
+       <article className="portfolio__item">
           <div className="portfolio__item-img">
             <img src={IMG3} alt="" />
           </div>
             <h3>
-              My AI
+              Curozy
             </h3>
             <div className="portfolio_item-cta">
 

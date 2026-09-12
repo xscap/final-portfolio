@@ -10,6 +10,8 @@ import { FaPython } from "react-icons/fa";
 import { TbBrandOffice } from "react-icons/tb";
 import { IoLogoTableau } from "react-icons/io5";
 import { GrMysql } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
+import { SiConfluence, SiJira, SiNextdotjs, SiTypescript } from "react-icons/si";
 
 import { SiPowerbi } from "react-icons/si";
 
@@ -57,6 +59,16 @@ function Skill() {
           < SiShadcnui className='experience__details-icon'/>
           <h4>UI LIBRARIES</h4>
         </article>
+
+        <article className="experience__details">
+          <SiTypescript className='experience__details-icon'/>
+          <h4>TYPESCRIPT</h4>
+        </article>
+
+        <article className="experience__details">
+          <SiNextdotjs className='experience__details-icon'/>
+          <h4>NEXT.JS</h4>
+        </article>
        </div>
       </div>
 
@@ -95,6 +107,28 @@ function Skill() {
    <h4>BASIC SQL</h4>
  </article>
  </div>
+      </div>
+
+      <div className="experience__tools">
+
+      <h3>Tools &amp; Workflow</h3>
+
+      <div className="experience__content">
+        <article className="experience__details">
+          <FaGithub className='experience__details-icon'/>
+          <h4>GITHUB</h4>
+        </article>
+
+        <article className="experience__details">
+          <SiJira className='experience__details-icon'/>
+          <h4>JIRA</h4>
+        </article>
+
+        <article className="experience__details">
+          <SiConfluence className='experience__details-icon'/>
+          <h4>CONFLUENCE</h4>
+        </article>
+      </div>
       </div>
 
     </div>

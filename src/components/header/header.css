@@ -52,14 +52,24 @@ header{
 
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 72vh;
+        padding-top: 8rem;
     }
 }
 
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
-        margin-top: 100px ;
+        min-height: 100vh;
+        height: auto;
+        margin-top: 0;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+
+    .cta{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
     }
 
     .header__socials,.scroll__down{

@@ -43,7 +43,7 @@ const About = () => {
              </div>
 
              <p>
-             Step into the unknown with courage and enthusiasm. Embrace every opportunity, learn from every challenge, and build a future. Every experience is a stepping stone towards my personal and professional growth. I am curious,determined, and I believe in my potential.
+             Frontend Developer with 2 years of experience turning designs and requirements into reliable, user-friendly web experiences. I’m driven by curiosity, continuous learning, and solving real-world problems through technology. I’m focused on growing as a developer, taking on greater ownership, and building products that are both functional and impactful.
              </p>
 
              <a href="#contact" className='btn btn-primary'>Lets Talk</a>
